@@ -1,0 +1,113 @@
+nav #mynav ul li a {
+    color: white;
+    font-size: 20px;
+}
+nav #mynav ul li a:hover {
+    color: orangered;
+}
+.login_info {
+    position:relative;
+}
+.login_info a i{
+    font-size: 25px;
+}
+.info_box {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 60px;
+
+    min-width: 300px;
+    padding: 20px 15px;
+
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+}
+.info_box.active {
+    display: inline-block;
+    animation: info_box_ani 0.5s;
+}
+
+@keyframes info_box_ani {
+    from{
+        opacity: 0;
+        transform: translateY(-20px)
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/*admin_product */
+.alert{
+    position: relative;
+}
+.btn_close_alert {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.update_modal_bg, .message_modal_bg {
+    position: fixed;
+    top: 0; left: 0;
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 100;
+
+    display: grid;
+    place-items: center;
+}
+.update_modal,.message_modal {
+    max-width: 550px;
+    width: 90%;
+    text-align:center;
+    background: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    z-index: 100;
+    position: absolute;
+}
+.message_modal{
+    max-height: 80vh;
+    height: auto;
+    font-size: 20px;
+    text-align: justify;
+    overflow: auto;
+}
+.message_modal::-webkit-scrollbar{
+    width: 7px;
+    background-color: transparent;
+}
+.message_modal::-webkit-scrollbar-thumb{
+    background-color: darkslateblue;
+    border-radius: 10px;
+    height: 100px;
+}
+/* .message_modal::-webkit-scrollbar-button {
+    height: 200px;
+} */
+
+.btn_close_modal, .btn_close_message {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+}
+
+
+/* admin messages */
+.message-box {
+    cursor: pointer;
+    background-color: #737373;
+}
+.message-box a{
+    color: skyblue;
+}
+.message-box a:hover {
+    color: yellow;
+}

@@ -1,0 +1,170 @@
+body{
+    width:100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* .img-content{
+    width:400px;
+    background-color: white;
+    border: 1px solid white;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+} */
+
+.a-tag{
+    text-decoration: none;
+}
+.a-tag:hover{
+    border-bottom: 3px solid orange;
+    border-radius: 3px;
+}
+
+ /* 500px height images */
+
+.rhubarb, .energy-drink, 
+.news-on-tv, .day-dessert{
+   text-align: left;
+   position: relative;
+   top:40%;
+}
+
+/* watch button in image */
+.btn-in-img{
+    position:relative;
+    left: 230px;
+    bottom:170px;
+}
+
+.footer-btn{
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer-btn:hover{
+    border-bottom: 1px solid orange;
+}
+
+.popup-link{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.popup-link:hover{
+    color: rgb(221, 53, 81);
+}
+
+.popup-btn-link{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+.popup-btn-link:hover{
+    color: cyan;
+}
+
+.popup-btn{
+    background: palevioletred;
+    padding: 5px 20px;
+    border: 1px solid palevioletred;
+    border-radius:20px; 
+}
+
+
+.shows-div{
+    width:200px;
+    height:230px;
+}
+
+.chef-div{
+    width: 100px;
+    height: 100px;
+}
+.chef-profile{
+    border-radius: 50%;
+}
+
+.shop-div{
+    width: 200px;
+    height:300px;
+}
+
+.sweep-div{
+    width: 250px;
+    height: 300px;
+}
+
+.kitchen-div{
+    width: 300px;
+    height: 250px;
+}
+.kitchen-premium-div{
+    width: 350px;
+    height: 250px;
+}
+
+
+/* start search box style  */
+.box {
+    max-width: 250px;
+    width: 100%;
+}
+
+.box .search-box{
+    position: relative;
+    height: 30px;
+    max-width: 230px;
+    background: cyan;
+    margin:auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+#check:checked + .search-box{
+    max-width: 30px;
+}
+
+.search-box input{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    background: white;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+    
+}
+
+.search-box .icon{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 100%;
+    background: black;
+    color: cyan;
+    border-radius: 0 15px 15px 0;
+    text-align: center;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+#check:checked + .search-box .icon{
+    border-radius: 15px;
+}
+
+#check{
+    display:none;
+}
+
+/* end search box style */

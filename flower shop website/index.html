@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./images/favicon.png" rel="icon" sizes="32x32" type="image/png"/>
+    <title>Flower Shop Website</title>
+    <!-- fontawesome css1 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+    <!-- bootstrap css1 js1 -->
+    <link rel="stylesheet" href="./libs/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <!-- lightbox -->
+    <link rel="stylesheet" href="./libs/lightbox2-2.11.3/dist/css/lightbox.min.css">
+    <!-- custom css -->
+    <link href="./styles.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+    <!------------------Start Navbar ------------------------->
+    <nav class="navbar navbar-expand-lg fixed-top px-5">
+
+        <a href="#" class="navbar-brand">
+            <img src="./images/favicon.png" alt="Logo" width="80px">
+            <span class="h1">Flower<span class="text-pink">.</span></span>
+        </a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav"><i class="navbar-toggler-icon"></i></button>
+
+        <div id="nav" class="navbar-collapse collapse justify-content-around text-uppercase fw-bold">
+
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="#home" class="nav-link mx-3 fw-bold text-pink">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link mx-3 fw-bold text-pink">About</a></li>
+                <li class="nav-item"><a href="#products" class="nav-link mx-3 fw-bold text-pink">Products</a></li>
+                <li class="nav-item"><a href="#review" class="nav-link mx-3 fw-bold text-pink">Review</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link mx-3 fw-bold text-pink">Contact</a></li>
+
+                <li class="nav-item"><a href="#" class="nav-link mx-3 fw-bold text-pink">
+                    <i class="fas fa-heart text-pink me-2"></i>My Account
+                </a></li>
+                <li class="nav-item"><a href="#" class="nav-link mx-3 fw-bold text-pink">
+                    <i class="fas fa-shopping-cart text-pink me-2"></i>My Order
+                </a></li>
+                <li class="nav-item"><a href="#" class="nav-link mx-3 fw-bold text-pink">
+                    <i class="fas fa-user text-pink me-2"></i>Favourite
+                </a></li>
+                
+            </ul>
+        </div>
+
+        <ul class="navbar-nav menu-icons">
+            <li><a href="#" class="nav-link mx-lg-2 mx-sm-4"><i class="fas fa-heart text-dark"></i></a></li>
+            <li><a href="#" class="nav-link mx-lg-2 mx-sm-4"><i class="fas fa-shopping-cart text-dark"></i></a></li>
+            <li><a href="#" class="nav-link mx-lg-2 mx-sm-4"><i class="fas fa-user text-dark"></i></a></li>
+        </ul>
+
+    </nav>
+    <!------------------End Navbar ------------------------->
+
+    <!------------------Start Home ------------------------->
+    <section id="home">
+        <div class="container">
+            <div class="col-md-6 col-sm-12">
+                <h1 class="text-uppercase fw-bolder">Fresh flower</h1>
+                <h2 class="text-capitalize text-pink">Natural & beautiful flowers</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta, id incidunt! Minus dolore dolorum consectetur iure vitae. Facilis quidem ducimus eligendi nulla!
+                </p>
+                <button class="btn btn-dark px-3 rounded-pill">Shop Now</button>
+            </div>
+        </div>
+    </section>
+    <!------------------End Home ------------------------->
+
+    <!------------------Start About ------------------------->
+    <section id="about">
+        <div class="container py-5">
+            <h1 class="fw-bolder text-center bg-pink"><span class="text-pink">About </span>Us</h1>
+
+            <div class="row pt-5">
+                <div class="col-md-6 about-video">
+                    <video src="./images/about-vid.mp4" autoplay loop muted></video>
+                    <p class="text-uppercase lead">best flower sellers</p>
+                </div>
+                <div class="col-md-6 ps-4 pt-3">
+                    <h3 class="pb-2">Why choose us?</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate deserunt harum nobis saepe. Maiores laboriosam ab nulla ratione fuga adipisci corrupti ducimus aspernatur aperiam ex blanditiis possimus enim.
+                    </p>
+                    <p class="py-2">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed consequatur commodi reprehenderit ea labore adipisci soluta qui temporibus dignissimos aliquam. Aliquid ducimus odio dignissimos alias.
+                    </p>
+                    <button class="btn btn-dark px-4 rounded-pill">Learn more</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!------------------End About ------------------------->
+
+    <!------------------Start Features ------------------------->
+    <section id="features">
+        <div class="container pt-5 pb-4">
+
+            <div class="feature">
+                <img src="./images/icon-1.png" width="50px" height="50px">
+                <div class="feature-content">
+                    <h6>Free Shippings</h6>
+                    <p>On All Orders</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <img src="./images/icon-2.png" width="50px" height="50px">
+                <div class="feature-content">
+                    <h6>10 Days Return</h6>
+                    <p>Moneyback Guarantee</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <img src="./images/icon-3.png" width="50px" height="50px">
+                <div class="feature-content">
+                    <h6>Offers & Gifts</h6>
+                    <p>On All Orders</p>
+                </div>
+            </div>
+
+            <div class="feature">
+                <img src="./images/icon-4.png" width="50px" height="50px">
+                <div class="feature-content">
+                    <h6>Secured Payment</h6>
+                    <p>Protected by Paypal</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!------------------End Features ------------------------->
+
+    <!------------------Start Products ------------------------->
+    <section id="products">
+        <div class="container py-5">
+
+            <h1 class="text-capitalize fw-bolder text-center bg-pink">Latest <span class="text-pink">Products</span></h1>
+
+            <div class="pt-5 products">
+
+                <div class="product text-center p-3">
+                    <span class="px-2 bg-pink text-pink discount">-10%</span>
+
+                    <a href="./images/img-1.jpg" data-lightbox="fpot" data-title="Flower Pot 1"><img src="./images/img-1.jpg" alt="flower pot">
+                    </a>
+
+                    <h3 class="fw-bolder">Flower Pot</h3>
+                    <span class="h3 fw-bold text-pink">$10.99</span>
+                    <del>$15.99</del>
+                    <div class="btn-group rounded-0 bg-pink2">
+                        <button class="btn"><i class="fas fa-heart text-light"></i></button>
+                        <button class="btn text-light fw-bold">Add To Cart</button>
+                        <button class="btn"><i class="fas fa-angle-double-right text-light"></i></button>
+                    </div>
+                </div>
+
+                <div class="product text-center p-3">
+                    <span class="px-2 bg-pink text-pink discount">-15%</span>
+                    <a href="./images/img-2.jpg" data-lightbox="fpot" data-title="Flower Pot 2"><img src="./images/img-2.jpg" alt="flower pot">
+                    </a>
+                    <h3 class="fw-bolder">Flower Pot</h3>
+                    <span class="h3 fw-bold text-pink">$10.99</span>
+                    <del>$15.99</del>
+                    <div class="btn-group rounded-0 bg-pink2">
+                        <button class="btn"><i class="fas fa-heart text-light"></i></button>
+                        <button class="btn text-light fw-bold">Add To Cart</button>
+                        <button class="btn"><i class="fas fa-angle-double-right text-light"></i></button>
+                    </div>
+                </div>
+
+                <div class="product text-center p-3">
+                    <span class="px-2 bg-pink text-pink discount">-12%</span>
+                    <a href="./images/img-3.jpg" data-lightbox="fpot" data-title="Flower Pot 3"><img src="./images/img-3.jpg" alt="flower pot">
+                    </a>
+                    <h3 class="fw-bolder">Flower Pot</h3>
+                    <span class="h3 fw-bold text-pink">$10.99</span>
+                    <del>$15.99</del>
+                    <div class="btn-group rounded-0 bg-pink2">
+                        <button class="btn"><i class="fas fa-heart text-light"></i></button>
+                        <button class="btn text-light fw-bold">Add To Cart</button>
+                        <button class="btn"><i class="fas fa-angle-double-right text-light"></i></button>
+                    </div>
+                </div>
+
+                <div class="product text-center p-3">
+                    <span class="px-2 bg-pink text-pink discount">-10%</span>
+                    <a href="./images/img-4.jpg" data-lightbox="fpot" data-title="Flower Pot 4"><img src="./images/img-4.jpg" alt="flower pot">
+                    </a>
+                    <h3 class="fw-bolder">Flower Pot</h3>
+                    <span class="h3 fw-bold text-pink">$10.99</span>
+                    <del>$15.99</del>
+                    <div class="btn-group rounded-0 bg-pink2">
+                        <button class="btn"><i class="fas fa-heart text-light"></i></button>
+                        <button class="btn text-light fw-bold">Add To Cart</button>
+                        <button class="btn"><i class="fas fa-angle-double-right text-light"></i></button>
+                    </div>
+                </div>
+
+                <div class="product text-center p-3">
+                    <span class="px-2 bg-pink text-pink discount">-13%</span>
+                    <a href="./images/img-5.jpg" data-lightbox="fpot" data-title="Flower Pot 5"><img src="./images/img-5.jpg" alt="flower pot">
+                    </a>
+                    <h3 class="fw-bolder">Flower Pot</h3>
+                    <span class="h3 fw-bold text-pink">$10.99</span>
+                    <del>$15.99</del>
+                    <div class="btn-group rounded-0 bg-pink2">
+                        <button class="btn"><i class="fas fa-heart text-light"></i></button>
+                        <button class="btn text-light fw-bold">Add To Cart</button>
+                        <button class="btn"><i class="fas fa-angle-double-right text-light"></i></button>
+                    </div>
+                </div>
+
+                <div class="product text-center p-3">
+                    <span class="px-2 bg-pink text-pink discount">-10%</span>
+                    <a href="./images/img-6.jpg" data-lightbox="fpot" data-title="Flower Pot 6"><img src="./images/img-6.jpg" alt="flower pot">
+                    </a>
+                    <h3 class="fw-bolder">Flower Pot</h3>
+                    <span class="h3 fw-bold text-pink">$10.99</span>
+                    <del>$15.99</del>
+                    <div class="btn-group rounded-0 bg-pink2">
+                        <button class="btn"><i class="fas fa-heart text-light"></i></button>
+                        <button class="btn text-light fw-bold">Add To Cart</button>
+                        <button class="btn"><i class="fas fa-angle-double-right text-light"></i></button>
+                    </div>
+                </div>
+
+                <div class="product text-center p-3">
+                    <span class="px-2 bg-pink text-pink discount">-10%</span>
+                    <a href="./images/img-7.jpg" data-lightbox="fpot" data-title="Flower Pot 7"><img src="./images/img-7.jpg" alt="flower pot">
+                    </a>
+                    <h3 class="fw-bolder">Flower Pot</h3>
+                    <span class="h3 fw-bold text-pink">$10.99</span>
+                    <del>$15.99</del>
+                    <div class="btn-group rounded-0 bg-pink2">
+                        <button class="btn"><i class="fas fa-heart text-light"></i></button>
+                        <button class="btn text-light fw-bold">Add To Cart</button>
+                        <button class="btn"><i class="fas fa-angle-double-right text-light"></i></button>
+                    </div>
+                </div>
+
+                <div class="product text-center p-3">
+                    <span class="px-2 bg-pink text-pink discount">-15%</span>
+                    <a href="./images/img-8.jpg" data-lightbox="fpot" data-title="Flower Pot 8"><img src="./images/img-8.jpg" alt="flower pot">
+                    </a>
+                    <h3 class="fw-bolder">Flower Pot</h3>
+                    <span class="h3 fw-bold text-pink">$10.99</span>
+                    <del>$15.99</del>
+                    <div class="btn-group rounded-0 bg-pink2">
+                        <button class="btn"><i class="fas fa-heart text-light"></i></button>
+                        <button class="btn text-light fw-bold">Add To Cart</button>
+                        <button class="btn"><i class="fas fa-angle-double-right text-light"></i></button>
+                    </div>
+                </div>
+
+                <div class="product text-center p-3">
+                    <span class="px-2 bg-pink text-pink discount">-12%</span>
+                    <a href="./images/img-9.jpg" data-lightbox="fpot" data-title="Flower Pot 9"><img src="./images/img-9.jpg" alt="flower pot">
+                    </a>
+                    <h3 class="fw-bolder">Flower Pot</h3>
+                    <span class="h3 fw-bold text-pink">$10.99</span>
+                    <del>$15.99</del>
+                    <div class="btn-group rounded-0 bg-pink2">
+                        <button class="btn"><i class="fas fa-heart text-light"></i></button>
+                        <button class="btn text-light fw-bold">Add To Cart</button>
+                        <button class="btn"><i class="fas fa-angle-double-right text-light"></i></button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!------------------End Products ------------------------->
+
+    <!------------------Start Reviews ------------------------->
+    <section id="review">
+        <div class="container py-5">
+            <h1 class="fw-bolder text-center bg-pink">Customers' <span class="text-pink">Reviews</span></h1>
+
+            <div class="pt-5 reviews">
+
+                <!-- start review1 -->
+                <div class="review">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                    </ul>
+
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero mollitia modi autem quidem magni repellat laudantium asdf voluptate excepturi, nesciunt asdf conq consequatur incidunt blanditiis voluptates quas praesentium, et quisquam culpa officiis lorem lorem lorem.
+                    </p>
+
+                    <div class="d-flex align-items-center customer">
+                        <img src="./images/pic-2.png" class="rounded-circle me-2" alt="cusotmer" width="60px">
+                        <div class="d-flex flex-column justify-content-center customer-details">
+                            <h5 class="mb-0">Nara Jessica</h5>
+                            <p class="text-muted m-0">Happy Customer</p>
+                        </div>
+                        <div class="ms-3 quote">
+                            <img src="./images/bg-pattern-quotation.svg" alt="quote" width="50px">
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <!-- end review1 -->
+
+                <!-- start review2 -->
+                <div class="review">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                    </ul>
+
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero mollitia modi autem quidem magni repellat laudantium asdf voluptate excepturi, nesciunt asdf conq consequatur incidunt blanditiis voluptates quas praesentium, et quisquam culpa officiis lorem lorem lorem.
+                    </p>
+
+                    <div class="d-flex align-items-center customer">
+                        <img src="./images/pic-1.png" class="rounded-circle me-2" alt="cusotmer" width="60px">
+                        <div class="d-flex flex-column justify-content-center customer-details">
+                            <h5 class="mb-0">Jonathan</h5>
+                            <p class="text-muted m-0">Happy Customer</p>
+                        </div>
+                        <div class="ms-3 quote">
+                            <img src="./images/bg-pattern-quotation.svg" alt="quote" width="50px">
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <!-- end review2 -->
+
+                <!-- start review3 -->
+                <div class="review">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-star text-pink"></i></li>
+                    </ul>
+
+                    <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero mollitia modi autem quidem magni repellat laudantium asdf voluptate excepturi, nesciunt asdf conq consequatur incidunt blanditiis voluptates quas praesentium, et quisquam culpa officiis lorem lorem lorem.
+                    </p>
+
+                    <div class="d-flex align-items-center customer">
+                        <img src="./images/pic-3.png" class="rounded-circle me-2" alt="cusotmer" width="60px">
+                        <div class="d-flex flex-column justify-content-center customer-details">
+                            <h5 class="mb-0">Billy</h5>
+                            <p class="text-muted m-0">Happy Customer</p>
+                        </div>
+                        <div class="ms-3 quote">
+                            <img src="./images/bg-pattern-quotation.svg" alt="quote" width="50px">
+                        </div>
+                        
+                    </div>
+
+                </div>
+                <!-- end review3 -->
+
+            </div>
+
+            
+        </div>
+    </section>
+    <!------------------End Reviews ------------------------->
+
+    <!------------------Star Contact ------------------------->
+    <section id="contact">
+        <div class="container py-5">
+
+            <h1 class="fw-bolder text-center bg-pink"><span class="text-pink">Contact</span>Us</h1>
+
+            <div class="row pt-5 justify-content-between">
+
+                <div class="col-md-6">
+                    <img src="./images/contact-img.svg" alt="watering" width="100%">
+                </div>
+
+                <div class="col-md-6 send-message">
+                    <form action="" method="">
+                        <div class="form-group mb-3">
+                            <label for="name">Your Name:</label>
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Your name">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email">Email address:</label>
+                            <input type="email" name="name" id="email" class="form-control" placeholder="Email address">
+                        </div>
+                        
+                        <div class="form-group mb-3">
+                            <label for="name">Subject:</label>
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="email">Message:</label>
+                            <textarea name="message" id="message" class="form-control" cols="30" rows="5" placeholder="Type here..."></textarea>
+                        </div>
+    
+                        <button type="submit" class="btn btn-dark px-4 rounded-pill">Send Message</button>
+                        
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!------------------End Contact ------------------------->
+
+    <!------------------Start Footer  ------------------------->
+    <footer>
+
+        <div class="container py-3">
+
+                <div>
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#review">Review</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4>Extra Links</h4>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">My Order</a></li>
+                        <li><a href="#">Favourite</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Locations</h4>
+                    <ul>
+                        <li><a href="#">Yangon</a></li>
+                        <li><a href="#">Mandalay</a></li>
+                        <li><a href="#">Naypyitaw</a></li>
+                        <li><a href="#">Pakokku</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>+95-912-345-6789</li>
+                        <li>contact@example.com</li>
+                        <li>No.(007),Hlaing, Yangon</li>
+                        <img src="./images/payment.png" alt="">
+                    </ul>
+                </div>
+
+        </div>
+
+        <div class="text-center py-2 copyright">
+            <small>Design by <a href="https://www.youtube.com/c/MrWebDesignerAnas" class="text-pink text-decoration-none">Mr.WebDesignerAnas</a> | Coded by <span class="text-pink">Aung Khine Phyo</span></small>
+        </div>
+    </footer>
+    <!------------------End Footer ------------------------->
+
+
+
+
+
+
+    <!-- bootstrap css1 js1 -->
+    <script src="./libs/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- jquery -->
+    <script src="./libs/jquery 3.6.0/jquery-3.6.0.min.js"></script>
+    <!-- lightbox css1 js1 -->
+    <script src="./libs/lightbox2-2.11.3/dist/js/lightbox.min.js"></script>
+    <!-- custom js -->
+    <script src="./script.js" type="text/javascript"></script>
+</body>
+</html>

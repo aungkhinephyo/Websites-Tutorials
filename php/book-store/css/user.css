@@ -1,0 +1,205 @@
+/* header */
+nav .icons a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+}
+
+nav .icons a:hover {
+    color: orangered;
+}
+
+nav #mynav ul li a {
+    color: black;
+    font-weight: 500;
+}
+
+nav #mynav ul li a:hover {
+    color: orangered;
+}
+
+.icons .login_info_container {
+    position: relative;
+}
+
+.icons .login_info_container .login_info {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 70px;
+
+    min-width: 300px;
+    padding: 15px 15px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.icons .login_info_container .login_info.active {
+    display: block;
+}
+
+.icons .login_info_container .login_info a {
+    font-size: 18px;
+}
+
+/* =====================start home ============================== */
+/* home banner */
+#home_banner {
+    height: 70vh;
+    min-height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/home-bg.jpg") no-repeat center center/cover;
+
+    display: grid;
+    place-items: center;
+}
+
+.banner_container {
+    min-width: 350px;
+    width: 50%;
+}
+
+/* home show product */
+.product {
+    position: relative;
+}
+
+.product>form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.product .price {
+    position: absolute;
+    top: 3%;
+    left: 5%;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+    z-index: 2;
+}
+
+/* =====================end home ============================== */
+
+/* =====================start about ============================== */
+#about_banner {
+    height: 40vh;
+    min-height: 250px;
+    background: url("../images/heading-bg.webp") no-repeat center center/cover;
+
+    display: grid;
+    place-items: center;
+}
+
+@media screen and (max-width:768px) {
+    #about_banner {
+        background: linear-gradient(45deg, orangered 10%, #f0f0f0 10%, #f0f0f0 90%, orangered 90%);
+    }
+}
+
+/* authors */
+.author {
+    cursor: pointer;
+}
+
+.author_info {
+    background-color: rebeccapurple;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 20px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.author:hover .author_info {
+    background-color: blueviolet;
+}
+
+.author_info img {
+    filter: saturate(0);
+}
+
+.author:hover .author_info img {
+    filter: saturate(1);
+}
+
+.author_info .author_socials {
+    display: flex;
+    flex-direction: column;
+
+    width: 60px;
+
+    align-items: center;
+    background-color: darkslategray;
+    border-radius: 10px 0 0 10px;
+
+    position: absolute;
+    right: -70px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    transition: all 0.5s ease;
+    transition-delay: 0.15s;
+}
+
+.author:hover .author_socials {
+    right: 0;
+}
+
+.author .author_socials a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 13px;
+    font-size: 20px;
+}
+
+.author .author_socials a:hover {
+    color: orangered;
+}
+
+/* =====================end about ============================== */
+
+/* =====================start cart ============================== */
+.product .cart_delete {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    display: grid;
+    place-items: center;
+    width: 25px;
+    height: 25px;
+
+    border: 0;
+    outline: 0;
+    background-color: orangered;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+/* =====================end cart ============================== */
+
+
+/* footer */
+footer {
+    background-color: #f0f0f0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.footer-link:hover {
+    color: orangered;
+    letter-spacing: 1px;
+    border-bottom: 1px solid orangered;
+}

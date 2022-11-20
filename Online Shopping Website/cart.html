@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commercial Website</title>
+    <!-- fontawesome css1 -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet">
+    <!-- custom css -->
+    <link href="css/styles.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <!------------------Start Header Section ------------------------->
+    <header>
+        <a href="#"><img src="./images/logo.png" alt="Logo"></a>
+
+        
+        <ul id="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+            <li><a href="cart.html" class="active"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            <i class="fa-solid fa-xmark close-icon"></i>
+        </ul>
+        
+        <div class="menu-mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i class="fas fa-outdent menu-icon"></i>
+        </div>
+
+    </header>
+    <!------------------End Header Section ------------------------->
+
+    <!------------------Start Hero Section ------------------------->
+    <section class="page-header">
+        <h2 class="text-white">#let's_buy</h2>
+        <p class="text-white">Add your cupon code & Save up to 70%</p>
+    </section>
+    <!------------------End Hero Section ------------------------->
+
+    <!------------------Start Cart Section ------------------------->
+    <section id="cart" class="section-p1">
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>REMOVE</th>
+                    <th>IMAGE</th>
+                    <th>PRODUCT</th>
+                    <th>PRICE</th>
+                    <th>QUANTITY</th>
+                    <th>SUBTOTAL</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><i class="fa fa-times-circle"></i></td>
+                    <td><img src="./images/products/f1.jpg"></td>
+                    <td>Cartoon Astronaut T-Shirt</td>
+                    <td>$78.00</td>
+                    <td><input type="number" name="quantity" value="1"></td>
+                    <td>$78.00</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-times-circle"></i></td>
+                    <td><img src="./images/products/f2.jpg"></td>
+                    <td>Cartoon Astronaut T-Shirt</td>
+                    <td>$78.00</td>
+                    <td><input type="number" name="quantity" value="1"></td>
+                    <td>$78.00</td>
+                </tr>
+                <tr>
+                    <td><i class="fa fa-times-circle"></i></td>
+                    <td><img src="./images/products/f3.jpg"></td>
+                    <td>Cartoon Astronaut T-Shirt</td>
+                    <td>$78.00</td>
+                    <td><input type="number" name="quantity" value="1"></td>
+                    <td>$78.00</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+    <!------------------End Cart Section ------------------------->
+
+    <!------------------Start Cupon Section ------------------------->
+    <section id="cart-add" class="section-p1">
+        
+        <div class="cupon">
+            <h3>Apply Cupon</h3>
+            <input type="text" name="cuponcode" placeholder="Enter your cupon">
+            <button type="button">Apply</button>
+        </div>
+
+        <div class="total-price">
+            <h3>Cart Total</h3>
+
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$234.00</td>
+                </tr>
+                <tr>
+                    <td>Shopping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$234.00</td>
+                </tr>
+            </table>
+
+            <button>Proceed to checkout</button>
+        </div>
+    </section>
+    <!------------------End Cupon Section ------------------------->
+
+    <!------------------Start Newsletters Section ------------------------->
+    <section id="newsletters" class="section-p1 section-m1">
+        <div>
+            <h3 class="text-white">Sign Up For Newsletters</h3>
+            <p>Get E-mail updates about our latest shop and <span>special offer</span></p>
+        </div>
+
+        <form action="">
+            <input type="email" name="email" placeholder="Your email address">
+            <button type="submit">Sign Up</button>
+        </form>
+    </section>
+    <!------------------End Newsletters Section ------------------------->
+
+    <!------------------Start Footer Section ------------------------->
+    <footer>
+        
+        <div class="footer-container">
+
+            <div class="contact-col">
+                <img src="./images/logo.png" alt="">
+                <h3>Contact</h3>
+                <ul>
+                    <li><strong>Address:</strong> 233 Parker Road, 12th Street New York</li>
+                    <li><strong>Phone:</strong> +959123456789, +9894567893</li>
+                    <li><strong>Open Hour:</strong> 9:00 am - 6:00 pm Everyday</li>
+                </ul>
+    
+                <h3>Follow us</h3>
+                <ul class="footer-socials">
+                    <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.pinterest.com/"><i class="fa-brands fa-pinterest"></i></a></li>
+                </ul>
+            </div>
+    
+            <div class="about-col">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="#">Deliverty Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <div class="user-account">
+                <h3>My Account</h3>
+                <ul>
+                    <li><a href="#">Sign in</a></li>
+                    <li><a href="cart.html">View Cart</a></li>
+                    <li><a href="cart.html">My Wishlist</a></li>
+                    <li><a href="cart.html">Track My Order</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+            </div>
+    
+            <div class="payment">
+                <h3>Install App</h3>
+                <p>From AppStore or Google Play</p>
+                <div class="img-box">
+                    <a href="https://apps.apple.com/"><img src="./images/pay/app.jpg"></a>
+                    <a href="https://play.google.com/"><img src="./images/pay/play.jpg"></a>
+                </div>
+    
+                <p>Secure payment gateway</p>
+                <a href="https://www.mastercard.us"><img src="./images/pay/pay.png"></a>
+            </div>
+
+        </div>
+
+        <div class="footer-copyright">
+            <small>Copyright&copy; Tech2 etc Course</small>
+        </div>
+    </footer>
+    <!------------------End Footer Section ------------------------->
+
+    <!-- custom js -->
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
